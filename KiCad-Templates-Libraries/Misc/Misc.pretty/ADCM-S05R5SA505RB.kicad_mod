@@ -1,0 +1,140 @@
+(footprint "ADCM-S05R5SA505RB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "C"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c53f6f0-b257-4ef2-b31a-9f39ab19a7ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ADCM-S05R5SA505RB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc73bb8b-9ef2-47e4-938f-4ff18f35ed7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ca/en/products/detail/abracon-llc/ADCM-S05R5SA505RB/21667157"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3bbcc11-fbc0-4827-811c-b59e22d1c489")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5F 5.5V Super-Capacitor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db61272b-492f-42ef-9d46-240e0cc89c9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 5 -5.25)
+		(end -5 -5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b5bc42cf-652b-44e9-8cc8-9925c9144a2c")
+	)
+	(fp_line
+		(start 5 5.25)
+		(end -5 5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f746a54-e4f5-4a59-9aee-655bffb2200e")
+	)
+	(fp_arc
+		(start -5 5.25)
+		(mid -10.25 0)
+		(end -5 -5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d7ae8e-b61f-4ce6-a3eb-9fa9e028c604")
+	)
+	(fp_arc
+		(start 5 -5.25)
+		(mid 10.25 0)
+		(end 5 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "309bbbe5-06ae-4d8f-91f0-9c88a4c1ba76")
+	)
+	(fp_text user "+ (Long Leg)"
+		(at -11.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d134fbc5-0218-4acb-bab3-c997c26199b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67ddc7f0-66ca-443e-9397-ec4b6aa7900d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -7.65 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8ae26d1-4a23-4e18-b039-b3263f5eb650")
+	)
+	(pad "2" thru_hole circle
+		(at 7.65 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfbaeb26-1f71-40eb-881b-77170a7ebb1d")
+	)
+	(embedded_fonts no)
+)

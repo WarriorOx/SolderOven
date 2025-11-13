@@ -1,0 +1,101 @@
+(footprint "LCSC-C5189751"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f494580d-bea6-41b7-9380-0f1aee2c571b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6be65f72-6482-40f3-b275-80d486216a30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_SHOU-HAN-CYA0650-1-5UH_C5189751.html?s_z=s_Inductors%252C%2520Coils%252C%2520Chokes%257CInductors%2520%28SMD%29"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ef70fdb-5bba-4b2c-819d-b80117452b7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "10A 7.2mmx6.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6627f806-411b-462a-8b71-c958a1b603fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.6 -3.3)
+		(end 3.6 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0649e1f5-d6be-48df-8173-b6a4785eb81d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bf1a44e-c052-481c-946f-204c7c9ecdd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.8 0)
+		(size 4.5 3.5)
+		(drill
+			(offset -2.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cbade480-2357-4b43-86fe-6340e0204b9b")
+	)
+	(pad "2" smd roundrect
+		(at 1.8 0)
+		(size 4.5 3.5)
+		(drill
+			(offset 2.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9856d2c1-8298-4ada-9343-542d3a98dc19")
+	)
+	(embedded_fonts no)
+)

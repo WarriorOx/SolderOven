@@ -1,0 +1,110 @@
+(footprint "HY1205GP 2400HZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "B"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bcb36841-e9c8-4f79-ac1f-0c21bc2f76b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HY1205GP 2400HZ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5223d7a6-58f8-413e-b5b6-e7c8a4d4edee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Buzzers_HYDZ-HY1205GP-2400HZ_C7544839.html?s_z=n_HY1205GP"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dda2b0b-bab7-4480-985b-b418507b0bd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "85dB 150mA 5V Buzzer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e118999a-5be9-471d-958c-825284738253")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b1d9cf3f-b8de-4f21-945b-168e62d1d0c5")
+	)
+	(fp_text user "+"
+		(at -8 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d135e7f9-a097-4173-ae8e-013ef4492e47")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14f6a285-d3cb-4b5d-b5d4-2c4e4c58cca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.25 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edfa2df6-ae56-42b2-a5f5-45101b15cf33")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "233926e9-d685-4a80-8f7f-7405d8262269")
+	)
+	(embedded_fonts no)
+)

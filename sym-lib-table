@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Arduino-Accesories")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Templates-Libraries/Arduino-Accesories/Arduino-Accesories.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Templates-Libraries/ESP-32/ESP32.kicad_sym")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Templates-Libraries/MX_Alps_Hybrid-master/Schematic Library/MX_Alps_Hybrid.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Templates-Libraries/RP_Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "Integrated-Circuits")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Templates-Libraries/Integrated Circuits/Integrated-Circuits.kicad_sym")(options "")(descr ""))
+)
